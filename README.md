@@ -1,66 +1,77 @@
-Description
+# Al-Hares — Responsive Landing Page
 
-This is a front-end project built using pure HTML and CSS. The goal is to demonstrate fundamental UI design skills: page structure, responsive layout, grids, spacing, and clean styling.
+A multi-section landing page built with **HTML5** and **CSS3**. The project focuses on front-end layout and styling, including responsive sections, navigation, cards, grids, and CSS animations.
 
-Preview
+## Preview
 
-You can add images or a live demo link if you host the project on GitHub Pages or any other hosting service.
+The main page is currently stored in `test.html`.
 
-Features
+## Page Sections
 
-Clean and simple landing page
+- **Navigation:** Main navigation links and a dropdown menu linking to page sections.
+- **Landing:** Introductory hero section.
+- **Articles:** Article cards displayed in a grid.
+- **Gallery:** Image gallery.
+- **Features:** Quality, Time, and Passion feature cards.
+- **Testimonials:** Testimonial cards.
+- **Team Members:** Team profile cards.
+- **Services:** Service cards.
+- **Our Skills:** Skill progress indicators.
+- **How It Works:** Process / workflow section.
+- **Latest Events:** Event information.
+- **Pricing Plans:** Basic, Advanced, and Professional plan cards.
+- **Top Videos:** Video section layout.
+- **Stats:** Statistics section.
+- **Discount Request:** Discount request form layout.
+- **Footer:** Closing page section.
 
-Fully responsive design for mobile, tablet, and desktop
+## Built With
 
-Flexbox and CSS Grid layout
+- HTML5
+- CSS3
+  - Flexbox
+  - CSS Grid
+  - Media Queries
+  - CSS Variables
+  - Transitions and Keyframe Animations
+- Google Fonts (Cairo)
+- Font Awesome Icons
 
-UI elements such as: navbar, cards, contact form (if included)
+## Project Structure
 
-Visual enhancements like gradients, hover effects, and clean typography
+```text
+p3/
+├── test.html
+├── css/
+│   ├── css.css
+│   ├── normalize.css
+│   └── all.min.css
+├── images/
+└── README.md
+```
 
-Technologies Used
+## Run Locally
 
-HTML5
+1. Clone the repository:
 
-CSS3 (Flexbox, Grid, Media Queries)
+   ```bash
+   git clone https://github.com/youssefibrahimahmed/p3.git
+   ```
 
-How to Run Locally
+2. Open the project folder.
+3. Open `test.html` in your browser, or use the Live Server extension in VS Code.
 
-Download or clone the project files.
+No build step is required.
 
-Open index.html in any web browser (Chrome, Firefox, Edge, Safari).
+## Notes
 
-Optional Local Server:
+- This is a front-end layout project; the repository does not currently include JavaScript functionality.
+- Some page content is placeholder/demo content (for example, article descriptions and testimonial text).
+- The HTML file is named `test.html`, not `index.html`.
 
-VSCode + Live Server extension
+## Author
 
-Or run: python -m http.server 8000 → open http://localhost:8000
+**Youssef Ibrahim Ahmed**
 
-Folder Structure (Example)
-project-3-html-css/
-├─ index.html
-├─ styles/
-│  └─ main.css
-├─ assets/
-│  ├─ images/
-│  └─ fonts/
-└─ README.md
-Future Improvements
-
-Add JavaScript interactions (toggle menu, sliders, animations)
-
-Optimize performance (minify CSS, compress images)
-
-Use CSS variables for more scalable theming
-
-Contribution
-
-If you want to share improvements:
-
-Open an Issue with suggestions.
-
-Submit a Pull Request with clear changes.
-
-License
-
-This project is open for learning purposes. Add a specific license (e.g., MIT) if needed.
+- [GitHub](https://github.com/youssefibrahimahmed)
+- [LinkedIn](https://www.linkedin.com/in/youssef-ibrahim-048961286/)
